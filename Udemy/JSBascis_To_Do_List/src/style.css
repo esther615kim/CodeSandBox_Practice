@@ -1,0 +1,19 @@
+:root {
+  --border-style: 1px solid skyblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: var(--border-style);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.card_content {
+  border: var(--border-style);
+}

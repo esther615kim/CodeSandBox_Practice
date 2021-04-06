@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To do List</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <div class="container">
+      <div class="card_content">
+        <h2>Task List</h2>
+
+        <form id="task_form" action="">
+          <input type="text" id="task" value="walk the cat" />
+          <label for="task">New Task</label>
+        </form>
+        <!--왜 아래 서브밋 폼에 포함 안시켰는지 아느사람?-->
+        <input type="submit" value="Add Task" />
+      </div>
+      <!--End of card_content-->
+
+      <div class="card_action">
+        <h3>Tasks</h3>
+
+        <ul class="collection">
+          <li class="collection_item">
+            <a href=""></a>
+          </li>
+
+          <li class="collection_item">
+            <a href=""></a>
+          </li>
+
+          <li class="collection_item">
+            <a href=""></a>
+          </li>
+        </ul>
+
+        <a href="">Clear Tasks</a>
+      </div>
+      <!--End of card_action-->
+    </div>
+    <!--end of container-->
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
